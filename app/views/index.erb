@@ -1,13 +1,14 @@
 <section class="search">
   <form action="">
     <label for="place"></label>
-    <input type="text" id="place" placeholder="Enter city or town...">
+    <input type="text" id="place" list="json-datalist" placeholder="Enter city...">
+    <datalist id="json-datalist"></datalist>
     <button id="search">Search</button>
   </form>
 </section>
 
 <section class="weather">
-  <table id="places">
+  <table id="results">
     <tbody></tbody>
   </table>
 </section>
